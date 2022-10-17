@@ -1,4 +1,4 @@
-package lispps;
+
 import java.util.Scanner;
 public class ConvertDistance {
 	public static void main(String[] args) {
