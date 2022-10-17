@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class ConvertDistance {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter Distance in Km:");
 		try {
 			int km=sc.nextInt();
 			System.out.format("The distance in Miles: %.3f", (km*0.621371));
